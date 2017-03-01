@@ -1,0 +1,162 @@
+.ui-dialog .ui-dialog-buttonpane button { margin: 7px 2px 6px 2px;padding: 3px 6px 5px 6px;min-width: 80px;}
+.ui-dialog-titlebar-close {display: none;}
+.ui-dialog {padding:1px; z-index:999}
+.ui-dialog .ui-dialog-titlebar {padding: 0px;position: relative;line-height: 20px;}
+.ui-dialog .ui-dialog-titlebar-close {position: absolute;right: 1px;top: 50%;width: 19px;margin: -10px 0 0 0;padding: 1px;height: 18px;}
+.ui-dialog .ui-dialog-title {margin: 0px;position: relative;left: 4px;font-size: 11px;font-weight: bold;}
+.ui-widget-header {color:#222; font-weight:normal}
+.ui-widget {font-family: sans-serif;}
+.ui-dialog .ui-dialog-buttonpane {padding:0px 25px 0px 0px}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {font-size:0.8em}
+.ui-corner-all {moz-border-radius: 0px;-webkit-border-radius: 0px;border-radius:0px}
+.ui-dialog .ui-dialog-content {font-family: sans-serif;font-size: 12px; margin:3px}
+
+
+#jeq                                {background-image: url("../images/redleather.png"); position: absolute;top: 0px;bottom: 0px;right: 0px;left: 0px;}
+
+#jeq .ib {display:inline-block}
+#jeq .link                                                {cursor:pointer; color:blue}
+#jeq .link:hover                                          {color:darkblue}
+ 
+
+#jeq .nav-area                         {position: relative;height: 110px;margin: 0px auto;background-image: url("../images/horiz-border.png"), url("../images/trilogy-small.png");background-repeat: repeat-x, no-repeat;background-position: bottom,center;background-color: black;background-position-y: bottom,10px;}
+#jeq .site-title                       {font-size:22pt;margin:auto;text-align:center; padding-top:30px}
+#jeq input#obar                        {display: block; margin: 20px auto 20px auto; width: 400px; font-size: 20pt; font-family: monospace; outline: none; padding: 4px;}
+
+#jeq .tab-area                         {width: 850px;margin: auto;position: absolute;left: 0px;right: 0px;height: 20px;top: 120px; z-index:1}
+#jeq .tab-area .tab                    {cursor: pointer;font-size: 11px;width: 75px;height: 20px;box-shadow: 0px -5px 10px -5px rgba(0, 0, 0, 0.7) inset;background-color: #C4C4C4;margin-right: 10px;border-radius: 10px 10px 0px 0px;}
+#jeq .tab-area .tab.active             {background-color: white;box-shadow: none;}
+#jeq .tab-area .tab:first-child        {margin-left:20px}
+#jeq .tab-area .body                   {}
+#jeq .tab-area .text                   {width: 100%;text-align: center;font-weight:bold; margin-top:4px}
+#jeq .tab-area .count                  {text-align:center;font-size:11px}
+#jeq .tab-area .tab:hover              {}
+
+#jeq .content-outer                    {position: absolute;top: 140px;right: 0px;bottom: 35px;left: 0px; font-size:11px}
+#jeq .content-area                     {position: absolute;top: 0px;bottom: 10px;right: 0px;left: 0px;width: 850px;margin: auto; }
+#jeq .content-area-inner               {position: absolute;top: 0px;left: 0px;right: 0px;bottom: 0px;box-shadow:0px 0px 5px black;background-color:white;}
+#jeq .content-column                   {overflow: auto;position: absolute;top: 5px;bottom: 5px;left: 5px;right: 5px; visibility:hidden}
+#jeq .content-column.active            {visibility:visible}
+
+#jeq .content-area > .detailer                           {position: absolute; right: -360px;bottom: 10px;top: 10px;width: 360px;}
+#jeq .content-area > .detailer .content                  {word-break: break-all;position: absolute;top: 20px;right: 20px;bottom: 10px;overflow-y: auto;left: 10px;padding: 3px;border-radius: 5px;}
+#jeq .content-area > .detailer .window                   {position: absolute;top: 0px;left: -245px;bottom: 0px;background-color: white;border-radius: 0px 5px 5px 0px;padding: 6px 6px 6px 10px;width: 240px; box-shadow:0px 0px 5px black}
+#jeq .content-area > .detailer .window .closer           {position: absolute;top: 2px;right: 2px;padding: 1px 5px 1px 5px;cursor: pointer;}
+#jeq .content-area > .detailer .window .closer:hover     {background-color:rgba(0, 0, 0, 0.08)}
+#jeq .content-area > .detailer .window .closer .ui-icon  {display: inline-block;width: 7px;background-position: -85px -128px;}
+#jeq .content-area > .detailer .window.hov .sidelabel    {font-weight:bold}
+#jeq .content-area > .detailer .window .min              {position: absolute;right: 20px;top: 2px;max-height: 16px;padding: 1px 5px 1px 5px;cursor: pointer;}
+#jeq .content-area > .detailer .window .sidelabel        {-webkit-transform: rotate(90deg);position: absolute;right: -95px;top: 125px;height: 14px;width: 210px;}
+#jeq .content-area > .detailer .window .min:hover        {background-color:rgba(0, 0, 0, 0.08)}
+#jeq .content-area > .detailer .window .min .ui-icon     {display: inline-block;width: 6px;background-position: -102px -16px;}
+
+#jeq .npc-bg           {background-color:#FEFFDB !important}
+#jeq .item-bg          {background-color:#FEFFDB !important}
+#jeq .zone-bg          {background-color:#ECFFE5 !important}
+
+#jeq .content-area > .floater                      {position: absolute; top: 30px;left: -145px;bottom: 10px;width: 145px;z-index: 0;}
+#jeq .content-area > .floater .itemtab             {position: relative; height: 31px; border-radius: 3px 0px 0px 3px;margin-bottom:5px; cursor:pointer}
+#jeq .content-area > .floater .itemtab .label      {position: absolute; left: 4px; top: 3px; font-weight: bold;}
+#jeq .content-area > .floater .itemtab .label2     {position: absolute; left: 12px; top: 15px;}
+
+#jeq .status-bar                                         {position: absolute;bottom: 0px;left: 0px;right: 0px;height: 35px; font-size:11px;background-color: black;color: white;background-image: url("../images/horiz-border.png");background-repeat: repeat-x;}
+#jeq .status-bar .inner                                  {position: relative;top: 12px;}
+#jeq .status-bar > div                                   {padding-top:3px}
+#jeq .status-bar .label                                  {margin-left:10px; color:gray;}
+#jeq .status-bar .val                                    {font-weight:bold; margmargin-right:10px} 
+
+#jeq .zonelist .body                                     {}
+#jeq .zonelist .listitem:hover                           {background-color:#eee}
+#jeq .zonelist .colheaders                               {font-weight:bold;border-bottom:1px solid gray}
+#jeq .zonelist .short-name                               {width:110px}
+#jeq .zonelist .long-name                                {width:200px}
+#jeq .zonelist .npc-count                                {width:50px}
+#jeq .zonelist .item-count                               {width:50px}
+#jeq .zonelist .exp-name                                 {width:140px}
+#jeq .zonelist .xp-bonus                                 {width:100px}
+#jeq .zonelist .requirements                             {width:100px}
+#jeq .zonelist .listitem                                 {line-height: 18px}
+
+
+.zone-inventory-dialog .ui-dialog-content            {font-size:11px; padding-top:10px}
+.zone-inventory-dialog .top                          {height:30px; padding-top:10px; display:none}
+.zone-inventory-dialog .top .label                   {padding-top:1px}
+.zone-inventory-dialog .top .add-col                 {float:right}
+.zone-inventory-dialog .top .filterbox               {border:1px solid gray; background-color:#DBFFDD; padding:3px }
+.zone-inventory-dialog .top .filterbox .closer       {cursor:pointer}
+
+.zone-inventory-dialog input.live-filter             {position: absolute;bottom: 7px; left: 9px;width: 300px;font-size: 14px;outline: none;padding: 3px 5px 3px 5px;font-family: monospace;box-shadow: 0px 0px 15px -4px rgb(0, 0, 0);border: 1px solid dimgray;}
+
+.zone-inventory-dialog .listitem                     {cursor:default;line-height:20px}
+.zone-inventory-dialog .sublistitem                  {white-space:nowrap; line-height:18px} 
+.zone-inventory-dialog .listitem:hover               {background-color: #DBDBDB}
+.zone-inventory-dialog .listitem.expanded            {background-color: #DBDBDB;border: 1px solid #919191;margin: -1px 0px 2px -1px;box-shadow: -1px -1px 0px 0px rgba(201, 201, 201, 1) inset, 2px 2px 1px -1px rgba(255,255,255,1) inset;padding: 0px 0px 5px 0px;}
+.zone-inventory-dialog .highlighter                  {cursor:pointer; }
+.zone-inventory-dialog .highlighter:hover            { }
+.zone-inventory-dialog .listitem.expanded .highlighter{border: none; margin:0px 0px 1px 0px}
+.zone-inventory-dialog .listitem > .highlighter > .ui-icon{margin-top:1px}
+.zone-inventory-dialog .col-header                   {font-weight:bold;border-bottom:1px solid gray}
+.zone-inventory-dialog .exp                          {width:18px}
+.zone-inventory-dialog .id                           {width:50px;margin-left:3px}
+.zone-inventory-dialog .loader                       {width:16px;height:16px;}
+.zone-inventory-dialog .preview                      {width:16px;height:16px;}
+.zone-inventory-dialog .loader.active                {width:16px;height:16px;background-image:url("../images/activity.gif");}
+.zone-inventory-dialog .name                         {width:250px}
+.zone-inventory-dialog .source                       {width:100px}
+.zone-inventory-dialog .type                         {width:130px}
+.zone-inventory-dialog .slot                         {width: 260px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.zone-inventory-dialog .expansion                    {display:none;overflow:hidden;/*padding:0px 3px 3px 5px;/*white-space:nowrap*/}
+.zone-inventory-dialog .expansion .il-zone           {}
+.zone-inventory-dialog .expansion .sublistitem:hover {background-color:rgba(0,0,0,0.1)}
+.zone-inventory-dialog .expansion .listing           {max-height: 200px;overflow-y: auto;padding:1px; margin-top:3px}
+.zone-inventory-dialog .expansion .title             {border-bottom:1px solid black; text-align:center}
+.zone-inventory-dialog .expansion .local             {}
+.zone-inventory-dialog .expansion .other             {}
+.zone-inventory-dialog .expansion .yui3-g .padder    {padding: 3px;  border-right: 1px solid black;  margin-left: 6px;}
+
+#jeq .item-box                      {padding:3px 5px 3px 5px; position:absolute; display:none; min-width:300px; z-index:2000;  color:white; background-color: rgba(0,0,0,0.75);border:1px solid black; box-shadow:0px 0px 3px 2px white}
+#jeq .item-box .saves               {max-width:435px; }
+#jeq .item-box .mln > div           {margin-right:5px}
+#jeq .item-box .stats               {max-width:425px}
+
+
+#jeq .il-npc                           {cursor: pointer; padding: 0px 5px 0px 5px;}
+#jeq .il-npc:hover                     {background-color:rgb(0,0,0); color:white}
+
+#jeq .il-zone                          {cursor:pointer; padding:0px 5px 0px 5px}
+#jeq .il-zone:hover                    {background-color:rgb(0,0,0); color:white}
+
+/*#jeq .item-box .mln > div:first-child                    {margin:0px}*/
+
+/*
+.ui-dialog .ui-dialog-title {float: left;margin: 1px 16px 0em 0;}
+.ui-dialog .ui-dialog-titlebar-close {padding:0px; position: absolute;right: .3em;top: 50%;width: 16px;margin: -8px 0px 0px -8px;height: 16px;}
+.ui-dialog .ui-dialog-titlebar {padding: 1px 2px 1px 4px;position: relative;}
+.ui-dialog .ui-dialog-titlebar-close span {display: block; margin: 0px;}
+.ui-widget {font-family: sans-serif; font-size: 1.1em;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+   border: none;background:#FDF5CE url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; font-weight: bold; color:#C77405;}
+  */ 
+
+
+
+#home-parts .post                      {margin: 10px;}
+#home-parts .title                     {border-bottom: 1px solid gray;margin-bottom: 4px;font-weight: bold;}
+#home-parts .body                      {margin-left: 5px;}
+
+
+.content-column.items input.item-search           {    width: 540px;    font-size: 18px;;margin-left: auto;margin-right: auto;display: block;outline: none;margin-top: 40px;padding: 3px 5px 3px 5px;font-family: monospace;margin-bottom: 20px; box-shadow: 0px 0px 15px -4px rgb(0, 0, 0); border:1px solid dimgray}
+.content-column.items .search-hint              {position: absolute;top: 22px;left: 143px;color: gray;font-style: italic;font-size: 13px;}
+
+.content-column.items .filter-column-holder     {margin-left: auto;margin-right: auto;display: table;}
+.content-column.items .filter-line              {line-height: 20px; cursor:pointer}
+.content-column.items .filter-column            {margin: 10px;width: 170px; margin-bottom: 20px;padding-bottom: 4px;}
+.content-column.items .filter-column .title     {text-align:center; font-weight: bold;font-size: 14px;border-bottom: 1px solid black;margin: 0px 0px 6px 0px;padding: 0px 0px 1px 0px;box-shadow: 0px 4px 3px -3px gray;}
+.content-column.items .line-holder              {overflow: hidden;overflow-y: auto;}
+
+.content-column.items .filter-column input[type="checkbox"]    {position: relative;top: 3px;margin-right: 2px;margin-left: 4px;}
+.content-column.items .filter-line label                       {cursor:pointer}
+.content-column.items .filter-line:hover                    {background-color:#ddd}
+.content-column.items .filter-line input[type="text"]       {position:relative;top: 2px;float: right;width: 45px;outline:none}
+
+

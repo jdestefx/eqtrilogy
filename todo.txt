@@ -1,0 +1,4 @@
+some items SLOT label is too long (flawless gray gemstone of knowledge)
+
+bows need RANGE in their pops
+
